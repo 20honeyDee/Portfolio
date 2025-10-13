@@ -9,8 +9,8 @@ const Hero = () => {
     }
   };
 
+  //function to download resume
   const downloadResume = () => {
-    // In a real implementation, this would download an actual resume file
     alert("Resume download would start here!");
   };
 
@@ -20,10 +20,10 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Introduction */}
           <div className="mb-8 animate-fade-in">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-3xl md:text-6xl font-bold mb-6 leading-tight">
               <span className="text-foreground">Hi, I'm </span>
               <span className="gradient-primary bg-clip-text text-transparent">
-                Alex Johnson
+                Honey Dee Eslera
               </span>
             </h1>
             <h2 className="text-2xl md:text-3xl font-medium text-muted-foreground mb-6">

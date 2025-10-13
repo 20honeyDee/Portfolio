@@ -37,7 +37,7 @@ const Header = () => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="text-2xl font-bold gradient-primary bg-clip-text text-transparent">
+          <div className="text-md font-semibold gradient-primary bg-clip-text text-black p-1 rounded-sm">
             Portfolio
           </div>
 

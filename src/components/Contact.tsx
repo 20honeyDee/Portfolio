@@ -43,19 +43,19 @@ const Contact = () => {
     {
       name: "GitHub",
       icon: Github,
-      url: "https://github.com",
+      url: "https://github.com/20honeyDee",
       color: "hover:text-gray-800"
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
-      url: "https://linkedin.com",
+      url: "https://www.linkedin.com/in/honeydeeeslera/",
       color: "hover:text-blue-600"
     },
     {
-      name: "Twitter",
+      name: "Replit",
       icon: Twitter,
-      url: "https://twitter.com",
+      url: "https://replit.com/@pluviophile",
       color: "hover:text-blue-400"
     }
   ];
@@ -64,17 +64,17 @@ const Contact = () => {
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA"
+      value: "Cavite, Philippines, 4102"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567"
+      value: "+63 939-3878-272"
     },
     {
       icon: Mail,
       label: "Email",
-      value: "alex.johnson@email.com"
+      value: "eslerahoneydee@gmail.com"
     }
   ];
 

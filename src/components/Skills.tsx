@@ -5,12 +5,11 @@ const Skills = () => {
     {
       title: "Frontend",
       skills: [
-        { name: "React", level: 95, icon: "⚛️" },
-        { name: "TypeScript", level: 90, icon: "📘" },
-        { name: "JavaScript", level: 95, icon: "💛" },
-        { name: "HTML/CSS", level: 90, icon: "🎨" },
-        { name: "Tailwind CSS", level: 85, icon: "🌊" },
-        { name: "Next.js", level: 80, icon: "▲" },
+        { name: "ReactJS", level: 85, icon: "⚛️" },
+        { name: "TypeScript", level: 85, icon: "📘" },
+        { name: "JavaScript", level: 90, icon: "💛" },
+        { name: "HTML5/CSS3", level: 90, icon: "🎨" },
+        { name: "Bootstrap/Tailwind CSS", level: 90, icon: "🌊" }
       ]
     },
     {
@@ -18,21 +17,20 @@ const Skills = () => {
       skills: [
         { name: "Node.js", level: 85, icon: "🟢" },
         { name: "Python", level: 80, icon: "🐍" },
-        { name: "PHP", level: 75, icon: "🐘" },
-        { name: "Express.js", level: 85, icon: "🚂" },
-        { name: "REST APIs", level: 90, icon: "🔗" },
-        { name: "GraphQL", level: 70, icon: "📊" },
+        { name: "PHP Laravel/Vanilla PHP", level: 90, icon: "🐘" },
+        { name: "REST APIs", level: 85, icon: "🔗" },
+        { name: "C/C++/C#", level: 85, icon: "💻" },
       ]
     },
     {
       title: "Database & Tools",
       skills: [
-        { name: "PostgreSQL", level: 85, icon: "🐘" },
-        { name: "MongoDB", level: 80, icon: "🍃" },
-        { name: "MySQL", level: 75, icon: "🗄️" },
+        { name: "MySQL/NoSQL", level: 90, icon: "🗄️" },
         { name: "Git", level: 90, icon: "🌳" },
-        { name: "Docker", level: 70, icon: "🐋" },
+        { name: "Microsoft SQL Server", level: 90, icon: "🟦" },
         { name: "AWS", level: 65, icon: "☁️" },
+        { name: "Google Firebase Database", level: 80, icon: "☁️" },
+
       ]
     }
   ];
@@ -91,7 +89,7 @@ const Skills = () => {
           <div className="mt-12 text-center">
             <h3 className="text-lg font-semibold mb-4">Also experienced with:</h3>
             <div className="flex flex-wrap justify-center gap-3">
-              {["Redux", "Jest", "Webpack", "Sass", "Firebase", "Stripe", "Socket.io", "WordPress"].map((skill, index) => (
+              {["Vite", "MVC Pattern", "Single Page Application", "OOP", "OAuth", "Xampp"].map((skill, index) => (
                 <span 
                   key={index}
                   className="px-3 py-1 bg-muted text-muted-foreground rounded-full text-sm hover:bg-primary hover:text-white transition-smooth cursor-default"

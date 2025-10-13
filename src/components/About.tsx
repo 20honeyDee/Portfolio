@@ -7,12 +7,12 @@ const About = () => {
       label: "Years Experience"
     },
     {
-      number: "50+",
+      number: "10+",
       label: "Projects Completed"
     },
     {
       number: "15+",
-      label: "Technologies Mastered"
+      label: "Used Languages & Tools"
     }
   ];
 
@@ -25,9 +25,6 @@ const About = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               About <span className="gradient-primary bg-clip-text text-transparent">Me</span>
             </h2>
-            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Get to know the person behind the code
-            </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -63,17 +60,13 @@ const About = () => {
                   databases. I believe in writing clean, maintainable code and staying up-to-date 
                   with the latest industry trends and best practices.
                 </p>
-                <p>
-                  When I'm not coding, you'll find me contributing to open-source projects, 
-                  learning new technologies, or mentoring aspiring developers in the community.
-                </p>
               </div>
 
               {/* Career Highlights */}
               <div className="mt-8 grid grid-cols-3 gap-6">
                 {highlights.map((highlight, index) => (
                   <div key={index} className="text-center">
-                    <div className="text-3xl font-bold gradient-primary bg-clip-text text-transparent">
+                    <div className="text-3xl font-bold gradient-primary bg-clip-text text-gray rounded-md">
                       {highlight.number}
                     </div>
                     <div className="text-sm text-muted-foreground font-medium">

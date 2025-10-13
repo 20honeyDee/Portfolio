@@ -6,11 +6,11 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, shopping cart, and payment processing.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-      techStack: ["React", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
-      github: "https://github.com",
+      title: "Banking System",
+      description: "A banking system with user creation, withdrawal, deposit, and option to create user's savings account with a certain savings interest functionalities. Built with .Net Core, C#, and winforms.",
+      image: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      techStack: ["C#", ".Net Core", "Windows Form"],
+      github: "https://github.com/20honeyDee/Banking-System",
       live: "https://demo.com",
       featured: true
     },
@@ -70,30 +70,30 @@ const Projects = () => {
                 </div>
 
                 <CardContent className="p-6">
-                  {/* Project Title */}
-                  <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-smooth">
-                    {project.title}
-                  </h3>
+                    {/* Project Title */}
+                    <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-smooth">
+                      {project.title}
+                    </h3>
 
-                  {/* Project Description */}
-                  <p className="text-muted-foreground mb-4 leading-relaxed">
-                    {project.description}
-                  </p>
+                    {/* Project Description */}
+                    <p className="text-muted-foreground mb-4 leading-relaxed">
+                      {project.description}
+                    </p>
 
-                  {/* Tech Stack */}
-                  <div className="mb-6">
-                    <h4 className="font-medium mb-2 text-sm">Tech Stack:</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {project.techStack.map((tech, techIndex) => (
-                        <span 
-                          key={techIndex}
-                          className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-md font-medium"
-                        >
-                          {tech}
-                        </span>
-                      ))}
+                    {/* Tech Stack */}
+                    <div className="mb-6">
+                      <h4 className="font-medium mb-2 text-sm">Tech Stack:</h4>
+                      <div className="flex flex-wrap gap-2">
+                        {project.techStack.map((tech, techIndex) => (
+                          <span 
+                            key={techIndex}
+                            className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-md font-medium"
+                          >
+                            {tech}
+                          </span>
+                        ))}
+                      </div>
                     </div>
-                  </div>
 
                   {/* Project Links */}
                   <div className="flex gap-3">
@@ -113,7 +113,7 @@ const Projects = () => {
                       onClick={() => window.open(project.live, '_blank')}
                     >
                       <ExternalLink className="mr-2 h-4 w-4" />
-                      Live Demo
+                      Watch Demo
                     </Button>
                   </div>
                 </CardContent>
@@ -126,7 +126,7 @@ const Projects = () => {
             <Button 
               variant="outline" 
               size="lg"
-              onClick={() => window.open('https://github.com', '_blank')}
+              onClick={() => window.open('https://github.com/20honeyDee?tab=repositories', '_blank')}
             >
               <Github className="mr-2 h-5 w-5" />
               View All Projects on GitHub
