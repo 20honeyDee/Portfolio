@@ -11,7 +11,12 @@ const Hero = () => {
 
   //function to download resume
   const downloadResume = () => {
-    alert("Resume download would start here!");
+    const link = document.createElement("a");
+    link.href = "/resume.pdf"; // Path to your file in public/
+    link.download = "Eslera,Honey_Dee_Resume.pdf"; // Suggested file name
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (

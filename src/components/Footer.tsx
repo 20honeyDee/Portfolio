@@ -12,9 +12,24 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { name: "GitHub", icon: Github, url: "https://github.com" },
-    { name: "LinkedIn", icon: Linkedin, url: "https://linkedin.com" },
-    { name: "Twitter", icon: Twitter, url: "https://twitter.com" },
+    {
+      name: "GitHub",
+      icon: Github,
+      url: "https://github.com/20honeyDee",
+      color: "hover:text-gray-800"
+    },
+    {
+      name: "LinkedIn",
+      icon: Linkedin,
+      url: "https://www.linkedin.com/in/honeydeeeslera/",
+      color: "hover:text-blue-600"
+    },
+    {
+      name: "Replit",
+      icon: Twitter,
+      url: "https://replit.com/@pluviophile",
+      color: "hover:text-blue-400"
+    }
   ];
 
   const scrollToSection = (href: string) => {
@@ -71,9 +86,9 @@ const Footer = () => {
             <div>
               <h3 className="font-bold mb-4">Get in Touch</h3>
               <div className="space-y-2 text-muted-foreground">
-                <p>San Francisco, CA</p>
-                <p>alex.johnson@email.com</p>
-                <p>+1 (555) 123-4567</p>
+                <p>Cavite, Philippines, 4102</p>
+                <p>eslerahoneydee@gmail.com</p>
+                <p>+63 939-3878-272</p>
               </div>
             </div>
           </div>
@@ -81,7 +96,7 @@ const Footer = () => {
           {/* Bottom Section */}
           <div className="border-t mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-muted-foreground text-sm text-center md:text-left">
-              © {currentYear} Alex Johnson. All rights reserved.
+              © {currentYear} Honey Dee Eslera. All rights reserved.
             </p>
             <div className="flex items-center gap-2 text-muted-foreground text-sm">
               <span>Made with</span>
