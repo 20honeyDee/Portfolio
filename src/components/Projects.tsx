@@ -16,21 +16,21 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features built with React and Socket.io.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
-      techStack: ["React", "TypeScript", "Socket.io", "MongoDB", "Express"],
-      github: "https://github.com",
+      title: "Road Maestro",
+      description: "Road Maestro is a web-based learning platform designed to teach the fundamentals of driving. It provides comprehensive lessons on essential driving concepts, including car parts, road signs, and traffic laws, helping users build a strong foundation before getting behind the wheel.",
+      image: "https://images.unsplash.com/photo-1494783367193-149034c05e8f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470",
+      techStack: ["React", "TypeScript", "Material UI", "TailwindCSS", "HTML5", "CSS3"],
+      github: "https://github.com/20honeyDee/RoadMaestro",
       live: "https://demo.com",
       featured: true
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "A responsive weather dashboard that displays current conditions and forecasts using modern design principles and external APIs for real-time data.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop",
-      techStack: ["React", "API Integration", "Chart.js", "CSS3"],
-      github: "https://github.com",
+      title: "Airline Ticketing System",
+      description: "Airline Ticketing System is a Java-based application that enables users to book airline tickets online. It streamlines the flight reservation process by allowing users to search for available flights, view schedules, and securely book tickets, making air travel planning faster and more convenient.",
+      image: "https://images.unsplash.com/photo-1610642372677-bcddb69f3531?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870",
+      techStack: ["Java"],
+      github: "https://github.com/20honeyDee/Airline-Ticketing-System",
       live: "https://demo.com",
       featured: false
     }

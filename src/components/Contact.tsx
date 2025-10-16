@@ -6,7 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
 import { Send, MapPin, Phone, Mail, Github, Linkedin, Twitter } from "lucide-react";
-import emailjs from "@emailjs/browser"; // ✅ Add this import
+import emailjs from "@emailjs/browser"; 
 
 const Contact = () => {
   const { toast } = useToast();
@@ -22,7 +22,6 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      // ✅ Replace with your actual EmailJS IDs
       const serviceId = "service_m9bq0xs";
       const templateId = "template_gwsndmu";
       const publicKey = "YuilMRHpWY_vv7ncx";
