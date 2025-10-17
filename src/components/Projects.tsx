@@ -13,27 +13,30 @@ const Projects = () => {
       techStack: ["React", "TypeScript", "Material UI", "TailwindCSS", "HTML5", "CSS3"],
       github: "https://github.com/20honeyDee/RoadMaestro",
       live: "https://road-maestro.vercel.app/",
-      featured: true
+      featured: true,
+      note: "Demo available online"
     },
     {
       id: 2,
       title: "Banking System",
-      description: `A banking system with user creation, withdrawal, deposit, and option to create user's savings account with a certain savings interest functionalities. Built with .Net Core, C#, and winforms. ${<br/>} Note: Demo Video in Google Drive`,
+      description: "A banking system with user creation, withdrawal, deposit, and option to create user's savings account with a certain savings interest functionalities. Built with .Net Core, C#, and winforms.",
       image: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       techStack: ["C#", ".Net Core", "Windows Form"],
       github: "https://github.com/20honeyDee/Banking-System",
-      live: "https://demo.com",
-      featured: true
+      live: "https://drive.google.com/file/d/1drjf3NTrTMx75ZP8whBHSpMwT0qttQHK/view?usp=sharing",
+      featured: true,
+      note: "Note: The demo of this project is available in Google Drive"
     },
     {
       id: 3,
       title: "Airline Ticketing System",
-      description: `Airline Ticketing System is a Java-based application that enables users to book airline tickets online. It streamlines the flight reservation process by allowing users to search for available flights, view schedules, and securely book tickets, making air travel planning faster and more convenient. ${<br/>} Note: Demo Video in Google Drive`,
+      description: "Airline Ticketing System is a Java-based application that enables users to book airline tickets online. It streamlines the flight reservation process by allowing users to search for available flights, view schedules, and securely book tickets, making air travel planning faster and more convenient. <br/> Note: Demo Video in Google Drive",
       image: "https://images.unsplash.com/photo-1610642372677-bcddb69f3531?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870",
       techStack: ["Java"],
       github: "https://github.com/20honeyDee/Airline-Ticketing-System",
-      live: "https://demo.com",
-      featured: false
+      live: "https://drive.google.com/file/d/11e29EogGjBsSPnIQmD9scW55Zt6AazvZ/view?usp=sharing",
+      featured: false,
+      note: "Note: The demo of this project is available in Google Drive"
     }
   ];
 
@@ -79,6 +82,11 @@ const Projects = () => {
                     {/* Project Description */}
                     <p className="text-muted-foreground mb-4 leading-relaxed">
                       {project.description}
+                    </p>
+
+                    {/* project note about the demo availability */}
+                    <p className="text-muted-foreground mb-4 leading-relaxed">
+                      {project.note}
                     </p>
 
                     {/* Tech Stack */}
