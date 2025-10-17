@@ -3,11 +3,22 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
+
   const projects = [
     {
       id: 1,
+      title: "Road Maestro",
+      description: "Road Maestro is a web-based learning platform designed to teach the fundamentals of driving. It provides comprehensive lessons on essential driving concepts, including car parts, road signs, and traffic laws, helping users build a strong foundation before getting behind the wheel.",
+      image: "https://images.unsplash.com/photo-1494783367193-149034c05e8f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470",
+      techStack: ["React", "TypeScript", "Material UI", "TailwindCSS", "HTML5", "CSS3"],
+      github: "https://github.com/20honeyDee/RoadMaestro",
+      live: "https://road-maestro.vercel.app/",
+      featured: true
+    },
+    {
+      id: 2,
       title: "Banking System",
-      description: "A banking system with user creation, withdrawal, deposit, and option to create user's savings account with a certain savings interest functionalities. Built with .Net Core, C#, and winforms.",
+      description: `A banking system with user creation, withdrawal, deposit, and option to create user's savings account with a certain savings interest functionalities. Built with .Net Core, C#, and winforms. ${<br/>} Note: Demo Video in Google Drive`,
       image: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       techStack: ["C#", ".Net Core", "Windows Form"],
       github: "https://github.com/20honeyDee/Banking-System",
@@ -15,19 +26,9 @@ const Projects = () => {
       featured: true
     },
     {
-      id: 2,
-      title: "Road Maestro",
-      description: "Road Maestro is a web-based learning platform designed to teach the fundamentals of driving. It provides comprehensive lessons on essential driving concepts, including car parts, road signs, and traffic laws, helping users build a strong foundation before getting behind the wheel.",
-      image: "https://images.unsplash.com/photo-1494783367193-149034c05e8f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470",
-      techStack: ["React", "TypeScript", "Material UI", "TailwindCSS", "HTML5", "CSS3"],
-      github: "https://github.com/20honeyDee/RoadMaestro",
-      live: "https://demo.com",
-      featured: true
-    },
-    {
       id: 3,
       title: "Airline Ticketing System",
-      description: "Airline Ticketing System is a Java-based application that enables users to book airline tickets online. It streamlines the flight reservation process by allowing users to search for available flights, view schedules, and securely book tickets, making air travel planning faster and more convenient.",
+      description: `Airline Ticketing System is a Java-based application that enables users to book airline tickets online. It streamlines the flight reservation process by allowing users to search for available flights, view schedules, and securely book tickets, making air travel planning faster and more convenient. ${<br/>} Note: Demo Video in Google Drive`,
       image: "https://images.unsplash.com/photo-1610642372677-bcddb69f3531?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870",
       techStack: ["Java"],
       github: "https://github.com/20honeyDee/Airline-Ticketing-System",
