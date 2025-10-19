@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Heart } from "lucide-react";
+import { Github, Linkedin, Twitter, Heart, Boxes  } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -26,7 +26,7 @@ const Footer = () => {
     },
     {
       name: "Replit",
-      icon: Twitter,
+      icon: Boxes,
       url: "https://replit.com/@pluviophile",
       color: "hover:text-blue-400"
     }

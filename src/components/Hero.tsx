@@ -61,13 +61,6 @@ const Hero = () => {
               Contact Me
             </Button>
           </div>
-
-          {/* Scroll Indicator */}
-          <div className="mt-16 animate-bounce">
-            <div className="w-6 h-10 border-2 border-primary rounded-full mx-auto flex justify-center">
-              <div className="w-1 h-3 bg-primary rounded-full mt-2 animate-pulse"></div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

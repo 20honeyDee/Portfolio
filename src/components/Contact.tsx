@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
-import { Send, MapPin, Phone, Mail, Github, Linkedin, Twitter } from "lucide-react";
+import { Send, MapPin, Phone, Mail, Github, Linkedin, Twitter, Boxes, Facebook } from "lucide-react";
 import emailjs from "@emailjs/browser"; 
 
 const Contact = () => {
@@ -72,8 +72,14 @@ const Contact = () => {
     },
     {
       name: "Replit",
-      icon: Twitter,
+      icon: Boxes,
       url: "https://replit.com/@pluviophile",
+      color: "hover:text-blue-400"
+    },
+    {
+      name: "Messenger",
+      icon: Facebook,
+      url: "https://www.facebook.com/honeydee.eslera#",
       color: "hover:text-blue-400"
     }
   ];
